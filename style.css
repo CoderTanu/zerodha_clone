@@ -1,0 +1,35 @@
+.nav_bar{
+
+       top:0;
+       width:100%;
+       z-index:10;
+       position:fixed;
+       background-color:#fff;
+       box-shadow: 2px 1px 2px #eee;
+       box-sizing:border-box;
+
+}
+
+.nav_bar .logo{
+
+    position:relative;
+    vertical-align: middle;
+    top:18px;
+    max-height: 17px;;
+}
+.nav_link{
+     list-style-type:none;
+     margin:0;
+     padding:0;  
+     overflow: hidden;
+     background-color: white;
+}
+
+
+
+ul{
+    display:block;
+}
+.nav_link li{
+    display:inline;
+}
