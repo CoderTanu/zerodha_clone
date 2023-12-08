@@ -1,3 +1,4 @@
+
 .nav_data{
     display: flex;
     justify-content: space-between;
@@ -74,4 +75,133 @@ ul{
 }
 .text-center{
     text-align: center;
+}
+
+.price_details{
+    justify-content: space-between;
+    display: flex;
+}
+
+h1{
+    font-size: 2.75rem;
+}
+.price{
+    justify-content: space-between;
+    display: flex;
+    margin-top: 10px;
+  
+    text-align: center; 
+     padding: 0 25px;
+ 
+}
+.sign_up{
+    color: #fff;
+    background-color: #387ed1;
+    border: 1px solid rgba(0,0,0,0) !important;
+    border-radius: 3px;
+    padding:10px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    width: auto;
+    margin-left: 550px;
+    margin-right: 600px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+
+    background-color: #fafafb;;
+    border-top: 1px solid #eee;
+    padding: 30px 0px 50px 0px;
+
+
+}
+footer .logo {
+ padding: 10px; 
+}
+
+footer .logo img {
+    max-height: 20px;
+    width: auto;
+}
+
+img{
+    max-width: 100%;
+}
+
+.container{
+    margin-left: 100px ;
+     margin-right: 300px ;
+   
+}
+
+
+
+.three {
+    flex-basis: 22%;
+    width: 22%;
+}
+.columns, .column {
+    box-sizing: border-box;
+    flex: 0 1 auto;
+}
+
+.list-style{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.nav-head{
+    font-size:1.125rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.between{
+    justify-content: space-between;
+}
+.row{
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap;
+}
+footer .main-footer .nav-head {
+    font-size: 1.125rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+footer .main-footer li {
+   line-height: 2;
+}
+footer .main-footer li a {
+    color: #666;
+}
+a {
+    text-decoration: none;
+    font-weight: 500;
+}
+li{
+    display: list-item;
+}
+p {
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 15px;
 }
